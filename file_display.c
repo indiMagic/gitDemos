@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include "file_display.h"
 void display(char *mess){
+ printf("\n");
 while (*mess != '\0' )
 { printf("%c", *mess);
   mess++;
 }
+
 }
